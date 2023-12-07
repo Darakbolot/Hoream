@@ -1,0 +1,190 @@
+/* table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+} */
+
+/* th {
+  background-color: #f2f2f2;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+body{
+    display: flex;
+    background: url(brushed_alu.png) center / cover;
+    justify-content: center;
+    align-items: center;
+}
+
+main.table{
+    /* background-color: #fff; */
+    width: 82vw;
+    height: 90vh;
+}
+
+.edit {
+    font-weight: 800;
+    font-size: 150%;
+
+    width: 100%;
+    max-height: 10%;
+    background-color: aqua;
+    padding: .8rem 1rem;
+}
+
+/* .selesai a{
+    margin-top: 30px;
+    margin-left: 79.5%;
+
+
+    padding: 0.6rem;
+
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+     padding: .8rem 1rem; 
+} */
+
+button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+    margin-left: 10%;
+    width: fit-content;
+    height: auto;
+  }
+  
+.button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.button2 {
+    position: absolute;
+    right: 17%;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+    /* margin-left: 79.5%; */
+    width: fit-content;
+    height: auto;
+  }
+  
+.button2:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;    
+}
+
+/* .headtab a{
+    padding: 0.6rem;
+    margin-top: 1%;
+    margin-left: 10%;
+
+    background-color: blanchedalmond;
+    display: block;
+    max-width: fit-content;
+    width: 100%;
+    height: auto;
+    /* border-radius: 10px;
+} */
+
+.bodtab {
+    width: 95%;
+    max-height: 89%;
+    background-color: orangered;
+
+    margin: .8rem auto;
+} 
+
+td img{
+    /* width:auto;
+    height: auto; */
+    width: 50%;
+    height: auto;
+}
+
+table, th, td{
+    padding: 1rem;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* table{
+    border-collapse: collapse;
+    margin-left: 10%;
+} */
+
+th{
+    background-color: cornsilk;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+td {
+    width: 100%;
+    /* min-width: 80%; */
+}
+
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+
+}
+
+/* Phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
