@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+body{
+    display: flex;
+    background: url(brushed_alu.png) center / cover;
+    justify-content: center;
+    align-items: center;
+}
+
+main.table{
+    width: 82vw;
+    height: 90vh;
+}
+
+.tambah {
+    font-weight: 800;
+    font-size: 150%;
+
+    width: 100%;
+    max-height: 10%;
+    background-color: #008CBA;
+    padding: .8rem 1rem;
+}
+
+button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    margin-left: 10%;
+    width: fit-content;
+    height: auto;
+  }
+  
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  .button2 {
+    position: absolute;
+    right: 17%;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    width: fit-content;
+    height: auto;
+  }
+  
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;    
+}
+
+.bodtab {
+    width: 95%;
+    max-height: 89%;
+    background-color: whitesmoke;
+
+    margin: .8rem auto;
+} 
+
+td img{
+    width: 50%;
+    height: auto;
+}
+
+table, th, td{
+    padding: 1rem;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+th{
+    background-color: whitesmoke;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+td {
+    width: 100%;
+}
+
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+
+}
+
+/* Phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+.slidein-from-right {
+    animation: slidein-from-right2 500ms;
+}
+@keyframes slidein-from-right2 {
+    from {
+        opacity: 0;
+        -webkit-transform:translateX(100%);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform:translateX(0%);
+    }
+}
+
+.slidein-from-left {
+    animation: slidein-from-left 500ms;
+}
+@keyframes slidein-from-left {
+    from {
+        margin-right: 100%;
+        width: 300%;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0%;
+        width: 100%;
+        opacity: 1;
+    }
+}
