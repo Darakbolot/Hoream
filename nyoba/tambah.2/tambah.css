@@ -58,6 +58,11 @@ button {
     color: white;
   }
 
+.bi-rewind {
+    width: 50%;
+    height: auto;
+}
+
   .button2 {
     position: absolute;
     right: 17%;
